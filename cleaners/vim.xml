@@ -28,4 +28,14 @@
     <action command="delete" search="file" path="~/.viminfo"/>
     <action command="delete" search="file" path="$USERPROFILE\_viminfo"/>
   </option>
+  <option id="RCSFiles">
+    <label>RCS backup files</label>
+    <description> Editing history created by the rscvers.vim plugin</description>
+    <action command="delete" search="walk.files" path="~/.vim/RCSFiles/"/>
+  </option>
+  <option id="NetRWhist">
+    <label>netrw history</label>
+    <description>Remove Netrw history file ~/.vim/netrwhist</description>
+    <action command="delete" search="file" path="~/.vim/netrwhist"/>
+  </option>
 </cleaner>
